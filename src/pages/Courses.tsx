@@ -80,7 +80,7 @@ export default function Courses() {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-gray-900">${course.price}</span>
+                  <span className="text-2xl font-bold text-gray-900">₹ {course.price}</span>
                   <button className="flex items-center text-indigo-600 font-semibold hover:text-indigo-700">
                     Learn More <ChevronRight size={20} />
                   </button>
